@@ -116,6 +116,7 @@ div.phone a{
     font-size: 16px;
     font-weight: bold;
     text-decoration: none;
+    color: black;
 }
 div.department{
     margin-top: 30px;
@@ -150,7 +151,9 @@ div.email a{
     max-width: 350px;
     font-size: 19px;
     font-family:sans-serif ;
-    font-weight: bold
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
 }
 
 

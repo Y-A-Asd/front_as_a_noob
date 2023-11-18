@@ -1,0 +1,49 @@
+/* h1{
+    color: orange;
+    background-color: slategray;
+    font-size: 30px;
+    text-decoration: underline;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center; 
+    
+}
+#content{
+
+     background-color: silver;
+}
+p.error{
+    color: green;
+    text-align: right;
+    line-height: 30px;
+    letter-spacing: 4px;
+    column-gap: 100px;
+}
+p.seccess{
+    color: red;
+    line-height: 30px;
+    font-weight: bold;
+}
+p.seccess.done{
+    color: rgb(92, 71, 71);
+    text-align: left;
+    font-weight: bold;
+}
+
+ul{
+    border-width: 10px;
+    border-style: dashed;
+     
+    border: 4px solid #dc143c;
+}
+li{
+    list-style-type: square;
+    text-shadow: 2px 1px ;
+} */
+a[href*="google"]{
+    background-color: brown;
+    text-align: center;
+    text-decoration: wavy;
+    color:aquamarine;
+    font-weight:bold;
+    text-transform: uppercase;
+}

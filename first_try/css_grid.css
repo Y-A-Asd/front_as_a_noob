@@ -1,0 +1,29 @@
+#content{
+    display: grid;
+    /* grid-template-columns: 30% 20% 50%; */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(3,1fr);
+    /* three way to make columns in grids*/
+
+    /* grid-auto-rows: minmax(100px,auto); */
+    /* grid-template-rows:repeat(3 minmax(100px auto)) ; */
+    /* grid-row: 1/3;
+    grid-column:2/8; */
+    /* justify-items: end;
+    justify-self: end;
+    align-items: start;
+    align-self: start; */
+    grid-column-gap: 50px;
+    grid-row-gap: 10px;
+    grid-gap: 10px 50px; 
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+#content div{
+    background: #ababab;
+    padding: 30px;
+}
+#content div:nth-child(even){
+    background: #457890;
+}
