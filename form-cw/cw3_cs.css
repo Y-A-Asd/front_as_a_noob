@@ -1,0 +1,174 @@
+body,ul,li,h1,h2,a{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    background-color: white;
+}
+header{
+    background-color: rgb(102, 102, 102);
+    padding: 20px;
+
+}
+header h1{
+    font-size: 80px;
+    color: white;
+    background-color: rgb(102, 102, 102);
+    text-align: center;
+}
+section.main    {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+}
+form{
+    margin: 0 0 0 0;
+    right: 500px;
+    text-align: left;
+
+}
+form .paragraph{
+
+    margin: 50px 0 0 160px;
+    font-size: 15px;
+    display: block;
+    font-weight:lighter;
+    /* margin: 0 0 10px 0; */
+    
+}
+section .fields{
+    margin: 0 350px 0 80px;
+    background-color: #b8b5b5af;
+    padding: 50px;
+    border-radius: 200px;
+}
+
+form input{
+    border: 1px solid white;
+    padding: 20px 60px;
+    margin: 15px;
+    border-radius: 200px;
+}
+
+form select{
+    border: 1px solid white;
+    margin: 10px;
+    margin-left: 13px;
+    padding: 15px 84px;
+    border-radius: 200px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+form textarea{
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 20px 53px;
+    text-align: center;
+    margin-left: 10px;
+    left: 10px;
+
+}
+
+form input:focus{
+    background-color: #373749;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+    border: 2px dashed rgb(255, 7, 7);
+}
+/* form input:hover{
+    background-color: silver;
+    padding: 7px;
+    border: 2px dashed rgb(255, 7, 7);
+} */
+
+section form input.sub{
+    padding: 12px 90px;
+    background-color: rgb(52, 190, 52);   
+    margin-left: 55px;
+    margin-top: 30px;
+    left: 55px ;
+    top: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    border: 1px solid green;
+}
+
+
+div.info{
+    margin: 140px 0 0 150px;
+}
+
+div.phone{
+    padding: 10px auto;
+    display: grid;
+    grid-template-columns: 1fr 12fr;
+    align-items: center;
+}
+div.phone img{
+    width: 50px;
+    height: auto;
+}
+div.phone a{
+    margin-top: 5px;
+    padding: 4px 50px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+div.department{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 12fr;
+    align-items: center;
+}
+div.department img{
+    width: 50px;
+    height: auto;
+}
+div.department p{
+    margin-right: 50px;
+    max-width: 350px;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+
+div.email{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 12fr;
+    align-items: center;
+}
+div.email img{
+    width: 50px;
+    height: auto;
+}
+div.email a{
+    margin-right: 50px;
+    max-width: 350px;
+    font-size: 19px;
+    font-family:sans-serif ;
+    font-weight: bold
+}
+
+
+
+div.pic img{
+    margin-top: 50px;
+    width: 100px;
+}
+div.pic img.behpardakht{
+    margin-bottom: 20px;
+    margin-right: 40px;
+}
+
+
+
+
+
+
+
+
+
