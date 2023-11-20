@@ -1,0 +1,228 @@
+body,ul,li,h1,h2,p,a{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    
+}
+/*:)*/
+  
+
+body{
+    text-rendering: optimizeSpeed; 
+    background-color: #f3f4f1
+}
+
+header{
+    background-color: #0368BA;
+    width: 100%;
+    max-width: 1980px;
+    box-shadow: #00556d;   
+    position: fixed;
+    top: 0rem;
+    z-index: 100;
+}
+
+header ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    
+}
+ul a{
+    color: white; 
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 15px;
+}
+
+li:last-child{
+    margin-left: auto;
+} 
+
+li img{
+    margin: 0;
+    padding: 0;
+    width: 1rem;
+    filter: invert(100%);
+}
+
+
+.flex-1{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin: 4rem 1.2rem;
+}
+.content{
+    max-width: 25rem;
+    min-width: 14rem;
+    border-radius: 0.5rem;
+    background-color: white;
+    box-shadow: 10px 10px 5px 1px #a5a4a4;
+    
+}
+.title{
+    margin: 0.5rem 0.5rem;
+    display: flex;
+    gap: 1rem;
+}
+.title div{
+    line-height: 1.6rem;
+    margin-top: 1.5rem;
+}
+.tumb{
+    border-radius: 0.8rem;
+    margin: 0.5rem;
+    width: 96%;
+    max-width: 500px;
+    box-shadow: 5px 5px 5px 1px #c0bfbf;
+    
+}
+.paragraph p{
+    color: #312e2e;
+    margin: 0.5rem 0.9rem;
+    text-align:justify;
+}
+.actions{
+    display: flex;
+    
+    margin-left: 2rem ;
+    gap: 1rem;
+}
+.actions a{
+    text-decoration: none;
+    color: #3d3c3c;
+    margin: 0.7rem;
+}
+
+.permission h2{
+    margin: 1rem 1.5rem;
+}
+.permission p{
+    font-size: 0.9rem;
+    margin: 0.5rem 2rem;
+}
+.perm{
+    display: flex;
+    gap: 0.2rem;
+}
+
+.perm a{
+    margin: 0.5rem;
+    text-decoration: none;
+    color: #3d3c3c;
+    font-size: 1rem;
+    flex-grow: 1;
+}
+.perm a:first-child{
+color: #00556d;
+}
+.perm a:nth-child(2){
+    color: #6e0202;
+}
+.perm a:nth-child(3){
+    color: #026602;
+}
+
+.nazi {
+    display: flex;
+    flex-wrap: wrap;
+}
+.nazi p{
+    max-width: 13rem;
+}
+.nazi img{
+    margin: 1rem 0.5rem;
+    max-height: 11rem;
+}
+
+
+footer{
+    display: inline block;
+    width: 100%;
+    background-color: #0368BA;
+    height: 3.2rem;
+    color: white;
+    text-align: center;
+}
+
+
+@media screen and (min-width: 1300px) {
+    .content{
+        max-width: 100%;
+    }
+    .flex-1{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-auto-flow: row;
+    }
+    .content:nth-child(4){
+        grid-column: 1 / 4;
+    }
+    .content:nth-child(5){
+        grid-column: 1 / 3;
+    }
+    .nazi img:first-child{
+        height: 13.2rem;
+    }
+}
+
+
+
+.actions a:hover{
+    font-weight:bold;
+}
+
+flex-1{
+    margin: 10rem 10rem;
+}
+
+
+.perm > *:hover{
+    font-weight: bold;
+}
+
+header a:hover{
+    background-color: #00556d;
+    transition: 0.5s;
+}
+.tumb:hover{
+    animation: enlarge12 0.5s forwards;
+
+}
+.tumb:not(:hover){
+    animation: shrink12 0.5s forwards;
+}
+.content:hover{
+    box-shadow: 12px 12px 10px 2px #312e2e;
+    transition: 0.5s;
+}
+
+@keyframes shrink12 {
+    0% {
+    transform: scaleX(1.05) scaleY(1.05);
+    transform-origin: center center;
+    }
+    100% {
+    transform: scaleX(1) scaleY(1);
+    transform-origin: center center;
+    }
+    }
+    @keyframes enlarge12 {
+    0% {
+    transform: scaleX(1) scaleY(1);
+    transform-origin: center center;
+    }
+    100% {
+    transform: scaleX(1.05) scaleY(1.05);
+    transform-origin: center center;
+    }
+    }
+/* 
+permission centerlaze
+two title image responsivity
+best practice?
+freecss??
+*/

@@ -1,0 +1,165 @@
+body,ul,li,h1,h2,p,a{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+body{
+    text-rendering: optimizeSpeed; 
+    background-color: #f3f4f1
+}
+
+header{
+    top: -0.4rem;
+    position: fixed;
+    width: 100%;
+    color: #1f1d2e;
+    font-weight: bolder;
+    font-size: 1.4rem;
+    padding:1.5rem;
+    background-color:#bb0110;
+}
+header span{
+    display: block;
+    font-size: 0.9rem;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6rem 2rem 2.5rem 2rem;
+    background-color: #1f1d2e;
+    color: #bb0110;
+    gap: 2rem;
+}
+aside ul{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+aside h2{
+    text-transform: uppercase;
+}
+aside nav a{
+    text-decoration: none;
+    color: #bb0110;
+    font-weight: lighter;
+}
+
+section{
+    background-color: white;
+    border-radius: 7px;
+    margin: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+h2{
+    margin-top: 1rem;
+    color: #bb0110;
+}
+
+.services p{
+    text-align: justify;
+    margin: 1rem 1rem;
+}
+
+.designers p{
+    text-align: justify;
+    margin: 1rem 1rem;
+
+}
+.our-team img{
+    width: 40%;
+    margin: auto;
+    align-items: center;
+}
+
+.our-team span{
+    display: block;
+    text-align: center;
+}
+.team{
+    display: flex;
+}
+.team div:first-child{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.packages p{
+    text-align: justify;
+    margin: 1rem 1rem;
+}
+
+.plans{
+    display: flex;
+    width: 100%;
+}
+.plan{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.basic p{
+    color: white;
+    background-color: #1f1d2e;
+    margin: 0;
+    height: 2rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.contact p{
+    text-align: justify;
+    margin: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+form input{
+    border: none;
+    background-color: #dedede;
+    border-radius: 3rem;
+    height: 3rem;
+    width: 20rem;
+    text-align: center;
+    margin: 0.6rem auto;
+}
+
+footer{
+    font-size: 15px;
+    display: inline;
+    background-color: #dedede;
+    padding: 4rem auto;
+    text-align: center;
+    
+}
+footer a{
+    text-decoration: none;
+    color: #1f1d2e;
+    font-family: sans-serif;
+    font-weight: bold;
