@@ -258,6 +258,21 @@ form input:last-child:hover{
         width: 100%; /* Make the image width 100% of its container */
         height: auto; /* Maintain aspect ratio */
     }
+
+    .our-team{
+        display: grid;
+        grid-auto-flow: row;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .team{
+        flex-direction: column;
+    }
+    .team span{
+        font-size: 20px;
+        margin: 1rem auto;
+        margin-bottom: 0;
+
+    }
     
 }
 
