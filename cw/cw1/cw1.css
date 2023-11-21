@@ -23,13 +23,14 @@ section p{
     color: white;
     position: absolute;
     text-transform: uppercase;
-    font-size: 200;
+    font-size: 90;
     text-align: center;
     left: 50%; 
     top: 50%;
     transform: translate(-50%, -50%);
     font-family:fantasy;
     opacity: 40%;
+
     }
 section div {
     background-color: blue;
@@ -42,9 +43,9 @@ section div {
 
 @keyframes follow {
     0% { background-color: blue; transform: translateX(0) translateY(0); }
-    25% { transform: translateX(820px) translateY(0); }
+    33% { transform: translateX(820px) translateY(0); }
     50% { background-color: saddlebrown; transform: translateX(820px) translateY(370px) }
-    75% { background-color: yellowgreen;  transform: translateX(0) translateY(370px); }
+    83% { background-color: yellowgreen;  transform: translateX(0) translateY(370px); }
     100% { background-color: salmon;  transform: translateX(0) translateY(0); }
 }
 .github{
