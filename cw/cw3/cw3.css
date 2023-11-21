@@ -255,8 +255,8 @@ form input:last-child:hover{
         grid-row: 2/3;
     }
     .gallery img {
-        width: 100%; /* Make the image width 100% of its container */
-        height: auto; /* Maintain aspect ratio */
+        width: 100%;
+        height: auto;
     }
 
     .our-team{
