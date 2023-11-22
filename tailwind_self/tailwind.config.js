@@ -6,7 +6,7 @@ module.exports = {
       flexGrow: { 10:'10', 4:'4', 5:'5',
         2: '2'},
       fontFamily:{
-        allfont:['Nunito']
+        allfont:['Nunito'],farsi:['Vazirmatn']
       }
     },
   },
