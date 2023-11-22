@@ -116,3 +116,10 @@ header{
     }
     
 }
+a{
+    text-decoration: none;
+}
+.yousof{
+    text-align: center;
+    color: #71717a;
+}

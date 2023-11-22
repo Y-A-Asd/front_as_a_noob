@@ -1,12 +1,16 @@
-section{
+body{
+    background-color: #dadada;
+}
 
-    font-family: arial;
+
+section{
+    margin-top: 10rem;
     display: grid;
     grid-auto-flow: column;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(4,1fr);
     width: 80%;
-    margin-left: 10rem;
+    margin-left: 12rem;
 }
 section > *{
     text-align: center;
@@ -58,4 +62,14 @@ section :nth-child(8){
 section :nth-child(12){
     border: 2px solid red;
     color: red;
+}
+a{
+    text-decoration: none;
+}
+.yousof{
+    text-align: center;
+    color: #71717a;
+    display:block;
+    width: 100%;
+    height: 3.2rem;
 }

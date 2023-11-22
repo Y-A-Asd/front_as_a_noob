@@ -146,8 +146,13 @@ footer{
     height: 3.2rem;
     color: white;
     text-align: center;
+    
 }
-
+footer a{
+    margin-top: 2rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
 
 @media screen and (min-width: 1300px) {
     .content{
