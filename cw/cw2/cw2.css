@@ -50,13 +50,13 @@ li img{
 
 .flex-1{
     display: flex;
-    justify-content: center;
     gap: 2rem;
     flex-wrap: wrap;
-    margin: 4rem 1.2rem;
+    margin: 7rem 5rem;
 }
 .content{
-    max-width: 25rem;
+    align-items: center;
+    max-width: 23rem;
     min-width: 14rem;
     border-radius: 0.5rem;
     background-color: white;
