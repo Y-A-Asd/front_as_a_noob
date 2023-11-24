@@ -7,6 +7,9 @@ module.exports = {
         2: '2'},
       fontFamily:{
         allfont:['Nunito'],farsi:['Vazirmatn']
+      },
+      listStyleImage: {
+        checkmark: 'url("")',
       }
     },
   },
