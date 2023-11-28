@@ -14,6 +14,15 @@ module.exports = {
       backgroundColor:{
         ours:'#F5DDD3'
       },
+      spacing: {
+        '50rem': '50rem',
+        '35rem': '35rem',
+        '70rem': '70rem',
+        '100rem': '100rem',
+        '150rem': '150rem',
+        '175rem': '175rem',
+        '200rem': '200rem'
+      },
       listStyleImage: {
         checkmark: 'url("")',
       }

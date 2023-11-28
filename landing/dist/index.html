@@ -4,30 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>LandY-A-Asd</title>
 </head>
 <body class="font-Merriweather bg-slate-100 text-gray-600">
     <div><!--whole page-->
         <div class="">
-            <div class="relative w-full h-40"><!--header-->
-                <div class="absolute">
-                    <div class="backdrop-brightness-50 bg-gradient-to-b from-gray-500 absolute opacity-50 z-20 w-full h-full"></div>
-                    <img class="w-full brightness-75" src="images/hero_1.jpg" alt="">
-                </div>
-                
-                <div class="z-30 absolute text-white text-center w-full mt-3 "><!--nav-->
-                    <p class=" font-bold text-4xl block">Sterial</p>
-                    <div class="mt-7 transition">
+            <div class="relative w-full h-40 xl:mb-96 xl:pb-96"><!--header-->
+                <img class="w-full h-fit absolute object-cover brightness-75 " src="images/hero_1.jpg" alt="">
+                <div class="z-30 absolute text-white text-center w-full mt-3 md:mt-10 xl:flex xl:justify-between "><!--nav-->
+                    <p class=" font-bold text-3xl md:text-7xl block xl:ml-20">Sterial</p>
+                    <div class="mt-7 transition text-sm md:text-xl xl:flex xl:gap-8">
                         <p class="hover:font-bold hover:underline cursor-pointer ">Home</p>
                         <p class="hover:font-bold hover:underline cursor-pointer ">About us</p>
                         <p class="hover:font-bold hover:underline cursor-pointer ">Deropdown</p>
                         <p class="hover:font-bold hover:underline cursor-pointer ">Services</p>
                         <p class="hover:font-bold hover:underline cursor-pointer ">Blog</p>
                     </div>
-                    <p class="botton">Contact Us</p>
+                    <p class="botton xl:mr-20">Contact Us</p>
                 </div>
-                <div class="hidden"><!--content-->
-                    <p>Its a Big World Out There, Go Explore</p>
+                <div class="hidden xl:block z-40 absolute mt-80 w-1/3 ml-40 text-white"><!--content-->
+                    <p class="font-bold capitalize text-4xl">Its a Big World Out There, Go Explore</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quam natus similique laborum minima iure dolorum vel, eaque nihil impedit earum quibusdam voluptatum delectus unde sit necessitatibus! Optio, deserunt nam?</p>
                     <div>
                         <p>watch video</p>
@@ -35,64 +32,63 @@
                 </div>
             </div>
         </div>
-        <div class="mt-24 pt-10 bg-slate-100 mx-2"><!--Explore All-->
-            <div><!--content-->
+        <div class="mt-24 xl:mt-96 xl:pt-35rem xl:pb-40 bg-slate-100 mx-2 xl:flex xl:gap-96"><!--Explore All-->
+            <div class="flex flex-col xl:justify-center xl:items-start text-start xl:flex-grow xl:ml-20"><!--content-->
                 <p class="title">Explore All Corners of The World With Us</p>
                 <p class="font-light ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere porro fuga laborum perferendis illo autem sint consequuntur? Error at rerum veritatis, laboriosam pariatur beatae asperiores consequatur, ex ullam nam earum.</p>
                 <p class="botton">read more</p>
             </div>
-            <div class="relative"><!--images-->
+            <div class="relative xl:flex-grow xl:mr-20"><!--images-->
                 <img class="w-3/4" src="images/img_v_1.jpg" alt="">
                 <img class="w-1/2 absolute  top-2/3 end-0 border-white border-8" src="images/img_v_2.jpg" alt="">
             </div>
         </div>
 
-        <div class="mt-48 mb-10 bg-gray-200 flex flex-col gap-5"><!--our service-->
-            <div class="text-center mt-10">
+        <div class="mt-48 xl:mt-0 mb-10 bg-gray-200 flex flex-col xl:flex-row gap-10"><!--our service-->
+            <div class="text-center mt-10 xl:ml-24">
                 <p class="text-Exx capitalize font-bold text-2xl text-center my-3">our Services</p>
-                <p class="font-light mx-8 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptates maxime hic. Autem architecto amet nihil magni, quas eaque pariatur dicta, doloremque aut provident velit cumque dolor molestias officia suscipit?</p>
+                <p class="font-light mx-8 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptates maxime hic. Autem architecto amet nihil magni, quas eaque pariatur dicta, doloremque aut provident velit cumque dolor molestias officia suscipit?</p>
                 <p class="botton">view all</p>
             </div>
 
-            <div class="text-center">
+            <div class="text-center mt-10">
                 <div class="flex justify-center items-center">
                     <img class="icons" src="images/svg/01.svg" alt="">
                   </div>
                 
                 <p class="iconsheading">Tourism</p>
-                <p class="font-light text-justify mx-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, corrupti hic distinctio est consequuntur modi blanditiis qui molestias cum officiis animi pariatur totam neque exercitationem id! Autem iste magni laudantium?</p>
+                <p class="font-light  mx-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, corrupti hic distinctio est consequuntur modi blanditiis qui molestias cum officiis animi pariatur totam neque exercitationem id! Autem iste magni laudantium?</p>
             </div>
 
-            <div class="text-center">
+            <div class="text-center mt-10">
                 <div class="flex justify-center items-center">
                     <img class="icons" src="images/svg/02.svg" alt="">
                   </div>
                 <p class="iconsheading">Package Tours</p>
-                <p class="font-light text-justify mx-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, corrupti hic distinctio est consequuntur modi blanditiis qui molestias cum officiis animi pariatur totam neque exercitationem id! Autem iste magni laudantium?</p>
+                <p class="font-light mx-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, corrupti hic distinctio est consequuntur modi blanditiis qui molestias cum officiis animi pariatur totam neque exercitationem id! Autem iste magni laudantium?</p>
             </div>
-            <div class="text-center">
+            <div class="text-center mt-10">
                 <div class="flex justify-center items-center">
                     <img class="icons" src="images/svg/03.svg" alt="">
                   </div>
                 <p class="iconsheading">Travel Insurance</p>
-                <p class="font-light text-justify mx-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, corrupti hic distinctio est consequuntur modi blanditiis qui molestias cum officiis animi pariatur totam neque exercitationem id! Autem iste magni laudantium?</p>
+                <p class="font-light  mx-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, corrupti hic distinctio est consequuntur modi blanditiis qui molestias cum officiis animi pariatur totam neque exercitationem id! Autem iste magni laudantium?</p>
             </div>
-            <div class="text-center mb-12">
+            <div class="text-center mb-12 mt-10 xl:mr-24">
                 <div class="flex justify-center items-center">
                     <img class="icons" src="images/svg/04.svg" alt="">
                   </div>
                 <p class="iconsheading">Airport Lounge Access</p>
-                <p class="font-light text-justify mx-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, corrupti hic distinctio est consequuntur modi blanditiis qui molestias cum officiis animi pariatur totam neque exercitationem id! Autem iste magni laudantium?</p>
-                <p class="font-light text-justify mx-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, corrupti hic distinctio est consequuntur modi blanditiis qui molestias cum officiis animi pariatur totam neque exercitationem id! Autem iste magni laudantium?</p>
+                <p class="font-light mx-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, corrupti hic distinctio est consequuntur modi blanditiis qui molestias cum officiis animi pariatur totam neque exercitationem id! Autem iste magni laudantium?</p>
             </div>
 
         </div>
         <div class="mx-2 my-7"><!--discover-->
-            <div class="flex flex-col">
+            <div class="flex flex-col xl:w-1/3 xl:ml-36 my-10">
                 <p class="title">Discover Hundred ofe Travel Destinations</p>
                 <p class="font-light my-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae nostrum minus mollitia natus tenetur voluptatum iste, nobis vero totam id facere possimus hic error, aperiam corrupti voluptatem doloribus quasi eius!</p>
             </div>
-            <div class="flex flex-col gap-10 items-center justify-center"><!--articles-->
+            <div class="flex flex-col gap-10 items-center justify-center xl:flex-row"><!--articles-->
                 <div class="text-center">
                     <div class="flex justify-center items-center relative"">
                         <img class="rounded-xl relative w-4/5 brightness-75" src="images/img-1.jpg" alt="">
@@ -136,107 +132,150 @@
             
             </div>
         </div>
-        <div class="my-10 mx-2"><!--sweet memories-->
-            <div >
+        <div class="my-10 mx-2 xl:flex xl:place-items-center"><!--sweet memories-->
+            <div class="xl:w-3/5 xl:mx-10">
                 <p class="title">Sweet Memories Come To life again</p>
                 <p class="font-light text-justify my-5 mx-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente similique provident ipsum a! Doloribus officiis laboriosam, atque harum velit non similique eius modi, totam unde tempore quisquam nam et dicta.
                 Corporis excepturi ea culpa eius? Eos, quod nulla est unde optio et dolores distinctio impedit consequatur alias incidunt suscipit neque nostrum debitis laborum natus dignissimos tenetur ipsum provident fugiat nisi?
                 Tempore, eius corrupti dignissimos est debitis adipisci provident quia quam animi magni ipsa fugit atque vitae nostrum praesentium a. Odit animi ratione laudantium suscipit odio facere et dolorum dolore soluta!</p>
                 <p class="botton mx-4">read more</p>
             </div>
-            <div class="hidden">
-                <img src="images/img-1.jpg" alt="">
+            <div class="hidden xl:inline w-1/2 flex-grow-2">
+                <img class="" src="images/img-1.jpg" alt="">
             </div>
         </div>
-        <div><!--testimonials-->
-            <p>Testimonials</p>
-            <div>
-                <div>
-                    <img src="images/person_1.jpg" alt="">
-                    <p>Joun doe</p>
-                    <p>CEO, Founder</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam maxime, voluptates aut esse alias minus sunt modi debitis ab fugiat enim quia nihil voluptate error in distinctio necessitatibus laudantium doloribus!</p>
+        <div class="bg-gray-200"><!--testimonials-->
+            <p class="title text-center py-10">Testimonials</p>
+            <div class="flex flex-col xl:flex-row  my-10">
+                <div class="my-10 flex flex-col mx-16 xl:mx-8 bg-slate-100 rounded-lg">
+                    <img class="rounded-full w-1/6 xl:w-1/4 m-6" src="images/person_1.jpg" alt="">
+                    <p class="text-orange-500 font-bold capitalize mx-6">Joun doe</p>
+                    <p class="font-light mx-6 text-sm">CEO, Founder</p>
+                    <br>
+                    <p class="text-xs font-light mx-6 pb-24 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam maxime, voluptates aut esse alias minus sunt modi debitis ab fugiat enim quia nihil voluptate error in distinctio necessitatibus laudantium doloribus!</p>
                 </div>
-                <div>
-                    <img src="images/person_2.jpg" alt="">
-                    <p>Joun doe</p>
-                    <p>CEO, Founder</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam maxime, voluptates aut esse alias minus sunt modi debitis ab fugiat enim quia nihil voluptate error in distinctio necessitatibus laudantium doloribus!</p>
+                <div class="my-10 flex flex-col mx-16 xl:mx-8 bg-slate-100 rounded-lg">
+                    <img class="rounded-full w-1/6 xl:w-1/4 m-6" src="images/person_2.jpg" alt="">
+                    <p class="text-orange-500 font-bold capitalize mx-6">Joun doe</p>
+                    <p class="font-light mx-6 text-sm">CEO, Founder</p>
+                    <br>
+                    <p class="text-xs font-light mx-6 pb-24 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam maxime, voluptates aut esse alias minus sunt modi debitis ab fugiat enim quia nihil voluptate error in distinctio necessitatibus laudantium doloribus!</p>
                 </div>
-                <div>
-                    <img src="images/person_3.jpg" alt="">
-                    <p>Joun doe</p>
-                    <p>CEO, Founder</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam maxime, voluptates aut esse alias minus sunt modi debitis ab fugiat enim quia nihil voluptate error in distinctio necessitatibus laudantium doloribus!</p>
+                <div class="my-10 flex flex-col mx-16 xl:mx-8 bg-slate-100 rounded-lg">
+                    <img class="rounded-full w-1/6 xl:w-1/4 m-6" src="images/person_3.jpg" alt="">
+                    <p class="text-orange-500 font-bold capitalize mx-6">Joun doe</p>
+                    <p class="font-light mx-6 text-sm">CEO, Founder</p>
+                    <br>
+                    <p class="text-xs font-light mx-6 pb-24 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam maxime, voluptates aut esse alias minus sunt modi debitis ab fugiat enim quia nihil voluptate error in distinctio necessitatibus laudantium doloribus!</p>
                 </div>
-                <div>
-                    <img src="images/person_2.jpg" alt="">
-                    <p>Joun doe</p>
-                    <p>CEO, Founder</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam maxime, voluptates aut esse alias minus sunt modi debitis ab fugiat enim quia nihil voluptate error in distinctio necessitatibus laudantium doloribus!</p>
+                <div class="my-10 flex flex-col mx-16 xl:mx-8 rounded-lg bg-slate-100">
+                    <img class="rounded-full w-1/6 xl:w-1/4 m-6" src="images/person_2.jpg" alt="">
+                    <p class="text-orange-500 font-bold capitalize mx-6">Joun doe</p>
+                    <p class="font-light mx-6 text-sm">CEO, Founder</p>
+                    <br>
+                    <p class="text-xs font-light mx-6 pb-24 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam maxime, voluptates aut esse alias minus sunt modi debitis ab fugiat enim quia nihil voluptate error in distinctio necessitatibus laudantium doloribus!</p>
                 </div>
-                <div>
-                    <img src="images/person_1.jpg" alt="">
-                    <p>Joun doe</p>
-                    <p>CEO, Founder</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam maxime, voluptates aut esse alias minus sunt modi debitis ab fugiat enim quia nihil voluptate error in distinctio necessitatibus laudantium doloribus!</p>
+                <div class="my-10 flex flex-col mx-16 xl:mx-8 rounded-lg bg-slate-100">
+                    <img class="rounded-full w-1/6 xl:w-1/4 m-6" src="images/person_1.jpg" alt="">
+                    <p class="text-orange-500 font-bold capitalize mx-6">Joun doe</p>
+                    <p class="font-light mx-6 text-sm">CEO, Founder</p>
+                    <br>
+                    <p class="text-xs font-light mx-6 pb-24 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam maxime, voluptates aut esse alias minus sunt modi debitis ab fugiat enim quia nihil voluptate error in distinctio necessitatibus laudantium doloribus!</p>
                 </div>
+                
             </div>
         </div>
-        <div><!--frequently-->
-            <div>
-                <img src="images/img_v_1.jpg" alt="">
+        <div class="xl:flex xl:justify-between mx-14"><!--frequently-->
+            <div class="hidden xl:inline w-1/3">
+                <img src="images/img_v_2.jpg" alt="">
             </div>
-            <div class="relative min-h-screen bg-gray-100 dark:bg-gray-900"">
-                <p>Frequently Asked Questions</p>
+            <div class="flex flex-col justify-center items-center">
+                <p class="text-center title mx-2">Frequently Asked Questions</p>
+    <section class=" w-4/5 px-10 pb-8 pt-10 rounded-lg flex justify-between flex-row"><!--FAQ-->
+      <div class="w-3/4">
+        <details class="border border-slate-200 rounded pt-2 pb-3 px-3 relative open:shadow-lg mb-1 bg-none open:bg-orange-600 duration-300"><!--copy this for more faq-->
+          <summary class="list-none font-semibold relative text-sm cursor-pointer pr-7">
+            How to download and register?
+            <div class="absolute top-0 right-0 bg-slate-200 rounded-full px-1 py-0.5 cursor-pointer visible open:invisible">
+              <svg class="h-5 w-4 text-pink-700" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="{1.5}" stroke="currentColor" className="w-6 h-6">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.5v15m7.5-7.5h-15"/>
+              </svg>
+            </div>
+          </summary>
+          <p class="text-xs pt-3">
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates natus neque accusamus culpa accusantium dolor dolore quis voluptatibus magnam aperiam dignissimos nemo unde rerum, minima, asperiores quaerat? Ipsa, quo aliquid?.<br /><br />
+          </p>
+        </details>
+        <details class="border border-slate-200 rounded pt-2 pb-3 px-3 relative open:shadow-lg mb-1 bg-none open:bg-white duration-300"><!--copy this for more faq-->
+          <summary class="list-none font-semibold relative text-sm cursor-pointer pr-7">
+            How to download and register?
+            <div class="absolute top-0 right-0 bg-slate-200 rounded-full px-1 py-0.5 cursor-pointer visible open:invisible">
+              <svg class="h-5 w-4 text-pink-700" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="{1.5}" stroke="currentColor" className="w-6 h-6">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.5v15m7.5-7.5h-15"/>
+              </svg>
+            </div>
+          </summary>
+          <p class="text-xs pt-3">
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates natus neque accusamus culpa accusantium dolor dolore quis voluptatibus magnam aperiam dignissimos nemo unde rerum, minima, asperiores quaerat? Ipsa, quo aliquid?.<br /><br />
+          </p>
+        </details>
+      </div>
+    </section>
                 <div>
                     
                 </div>
             </div>
         </div>
-        <div><!--recent-->
-            <div>
-                <img src="images/gal_1.jpg" alt="">
-                <p>May 14 2022</p>
-                <p>far from away, behind the word mountains</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, doloremque? Architecto ea quas labore provident dignissimos velit fuga! Suscipit delectus ratione voluptatibus quibusdam enim vel pariatur voluptas maxime voluptates dignissimos?</p>
-                <p>read more</p>
+
+        <div class="my-10 flex flex-col  justify-center items-center"><!--recent-->
+            <p class="title my-10">Recent Posts</p>
+            <div class="flex flex-col xl:flex-row gap-10 items-center xl:justify-around xl:mx-10">
+                <div class="flex flex-col justify-center items-center w-1/2">
+                    <img class="w-ful rounded-lg" src="images/gal_1.jpg" alt="">
+                    <p class="font-light text-xs self-start ml-5 mt-4 mb-2">May 14 2022</p>
+                    <p class="text-lg font-bold capitalize">far from away, behind the word mountains</p>
+                    <p class="font-light text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, doloremque? Architecto ea quas labore provident dignissimos velit fuga! Suscipit delectus ratione voluptatibus quibusdam enim vel pariatur voluptas maxime voluptates dignissimos?</p>
+                    <p class="botton">read more</p>
+                </div>
+                <div class="flex flex-col justify-center items-center w-1/2">
+                    <img class="w-ful rounded-lg" src="images/gal_2.jpg" alt="">
+                    <p class="font-light text-xs self-start ml-5 mt-4 mb-2">May 14 2022</p>
+                    <p class="text-lg font-bold capitalize">far from away, behind the word mountains</p>
+                    <p class="font-light text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, doloremque? Architecto ea quas labore provident dignissimos velit fuga! Suscipit delectus ratione voluptatibus quibusdam enim vel pariatur voluptas maxime voluptates dignissimos?</p>
+                    <p class="botton">read more</p>
+                </div>
+                <div class="flex flex-col justify-center items-center w-1/2">
+                    <img class="w-ful rounded-lg" src="images/gal_3.jpg" alt="">
+                    <p class="font-light text-xs self-start ml-5 mt-4 mb-2">May 14 2022</p>
+                    <p class="text-lg font-bold capitalize">far from away, behind the word mountains</p>
+                    <p class="font-light text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, doloremque? Architecto ea quas labore provident dignissimos velit fuga! Suscipit delectus ratione voluptatibus quibusdam enim vel pariatur voluptas maxime voluptates dignissimos?</p>
+                    <p class="botton">read more</p>
+                </div>
+                <div class="flex flex-col justify-center items-center w-1/2">
+                    <img class="w-ful rounded-lg" src="images/gal_4.jpg" alt="">
+                    <p class="font-light text-xs self-start ml-5 mt-4 mb-2">May 14 2022</p>
+                    <p class="text-lg font-bold capitalize">far from away, behind the word mountains</p>
+                    <p class="font-light text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, doloremque? Architecto ea quas labore provident dignissimos velit fuga! Suscipit delectus ratione voluptatibus quibusdam enim vel pariatur voluptas maxime voluptates dignissimos?</p>
+                    <p class="botton">read more</p>
+                </div>
+                
             </div>
-            <div>
-                <img src="images/gal_2.jpg" alt="">
-                <p>May 14 2022</p>
-                <p>far from away, behind the word mountains</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, doloremque? Architecto ea quas labore provident dignissimos velit fuga! Suscipit delectus ratione voluptatibus quibusdam enim vel pariatur voluptas maxime voluptates dignissimos?</p>
-                <p>read more</p>
-            </div>
-            <div>
-                <img src="images/gal_3.jpg" alt="">
-                <p>May 14 2022</p>
-                <p>far from away, behind the word mountains</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, doloremque? Architecto ea quas labore provident dignissimos velit fuga! Suscipit delectus ratione voluptatibus quibusdam enim vel pariatur voluptas maxime voluptates dignissimos?</p>
-                <p>read more</p>
-            </div>
-            <div>
-                <img src="images/gal_4.jpg" alt="">
-                <p>May 14 2022</p>
-                <p>far from away, behind the word mountains</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, doloremque? Architecto ea quas labore provident dignissimos velit fuga! Suscipit delectus ratione voluptatibus quibusdam enim vel pariatur voluptas maxime voluptates dignissimos?</p>
-                <p>read more</p>
-            </div>
+            
+            
         </div>
-        <div><!--behind your -->
-            <p>behind your adventurous journey here.</p>
-            <p>Get start</p>
+        <div class="bg-orange-500 flex flex-col xl:flex-row justify-around items-center"><!--behind your -->
+            <p class="text-white py-10 capitalize text-sm xl:text-4xl">behind your adventurous journey here.</p>
+            <p class="botton  border-white border-2 ">Get start</p>
         </div>
-        <div><!--footer-->
-            <div>
-                <p>about pasport</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur amet harum delectus laudantium animi labore exercitationem quas quam accusantium, assumenda ut quod molestias eligendi vitae quis, tempore ipsam eos mollitia?</p>
-                <p>content</p>
+        <div class="bg-gray-200 pt-10 flex flex-col xl:grid xl:grid-flow-col"><!--footer-->
+            <div class="flex flex-col gap-2 mb-4 mx-4">
+                <p class="capitalize font-bold text-gray-800">about pasport</p>
+                <p class="max-w-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur amet harum delectus laudantium animi labore exercitationem quas quam accusantium, assumenda ut quod molestias eligendi vitae quis, tempore ipsam eos mollitia?</p>
+                <p class="capitalize font-bold text-gray-800">content</p>
 
             </div>
-            <div>
-                <p>links</p>
+            <div class="flex flex-col gap-2 mb-4 mx-4">
+                <p class="capitalize font-bold text-gray-800">links</p>
                 <p>about us</p>
                 <p>services</p>
                 <p>news</p>
@@ -244,8 +283,8 @@
                 <p>contrac</p>
                 <p>links</p>
             </div>
-            <div>
-                <p>company</p>
+            <div class="flex flex-col gap-2 mb-4 mx-4">
+                <p class="font-bold text-gray-800">company</p>
                 <p>about us</p>
                 <p>services</p>
                 <p>news</p>
@@ -253,14 +292,21 @@
                 <p>contrac</p>
                 <p>links</p>
             </div>
-            <div>
-                <p>contact</p>
+            <div class="flex flex-col gap-2 mb-4 mx-4">
+                <p class="capitalize font-bold text-gray-800">contact</p>
                 <p>43 jah akjsfhakf jdhf kjdsahk jdkjfh </p>
                 <p>+1 967611-134-144</p>
                 <p>+1 967611-134-144</p>
                 <p>yousofasadi@outlook.com</p>
             </div>
         </div>
+    </div>
+
+    <div class="bg-gray-800">
+       <a class="text-center" href="https://github.com/Y-A-Asd">
+    <p class="text-orange-500 py-16">with ❤️ by Y-A-Asd :)</p>
+</a>
+
     </div>
 </body>
 </html>

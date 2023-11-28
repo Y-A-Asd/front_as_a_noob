@@ -13,7 +13,7 @@
     @apply text-Exx font-bold text-lg inline-block;
 }
 .title{
-    @apply text-Exx text-6xl font-bold;
+    @apply text-Exx text-5xl font-bold;
 }
 .botton{
     @apply bg-orange-500 inline-block px-5 py-2 rounded-full my-5 text-white capitalize text-xs cursor-pointer hover:scale-110 transition
